@@ -1,0 +1,38 @@
+:root {
+  --primary: #25D366; /* WhatsApp Green */
+  --dark: #1f2937;
+  --light: #f8fafc;
+  --gray: #6b7280;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Poppins', sans-serif; color: var(--dark); background: white; }
+.container { max-width: 900px; margin: 0 auto; padding: 0 20px; }
+
+.badge { background: var(--light); color: var(--primary); padding: 8px 16px; border-radius: 50px; font-weight: 600; font-size: 14px; }
+h1 { font-size: 2.5rem; font-weight: 700; margin: 20px 0; line-height: 1.2; }
+h1 span { color: var(--primary); }
+h2 { font-size: 2rem; text-align: center; margin-bottom: 30px; }
+p { color: var(--gray); font-size: 1.1rem; margin-bottom: 20px; }
+
+.hero { text-align: center; padding: 80px 0; }
+.pricing { padding: 60px 0; background: var(--light); }
+.faq { padding: 60px 0; }
+.cta { padding: 80px 0; text-align: center; background: var(--dark); color: white; }
+.cta p { color: #d1d5db; }
+footer { text-align: center; padding: 30px 0; }
+
+.price-card { background: white; max-width: 400px; margin: 0 auto; padding: 40px; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); text-align: center; }
+.price { font-size: 1.2rem; }
+.price span { color: var(--primary); font-size: 2.5rem; font-weight: 700; }
+.delivery { margin-bottom: 25px; }
+
+.faq-item { background: var(--light); padding: 20px; border-radius: 12px; margin: 15px 0; }
+.faq-item h4 { margin-bottom: 8px; color: var(--dark); }
+
+.btn-primary, .btn-secondary { 
+  display: inline-block; padding: 14px 30px; border-radius: 10px; 
+  text-decoration: none; font-weight: 700; margin: 10px; transition: 0.3s;
+}
+.btn-primary { background: var(--primary); color: white; }
+.btn-secondary { background: white; color: var(--dark); border: 2px solid white; }
+.btn-primary:hover { transform: translateY(-2px); }
